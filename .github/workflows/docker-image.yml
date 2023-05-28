@@ -1,15 +1,11 @@
 name: Docker Image CI
-# permissions: {}
-permissions: read-all|write-all
+
 on:
    push: 
      branches: [ "main" ]
    pull_request:
      branches: [ "main" ]
     
-#   permissions: read-all
-
-
 jobs:
 
   build:
