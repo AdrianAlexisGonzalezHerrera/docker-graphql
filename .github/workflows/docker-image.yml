@@ -31,9 +31,9 @@ jobs:
       run: 
         docker build -t adrianalexisgonzalezherrera/docker-graphql:0.0.2 .
       
-    - name: Push Docker Image
-      run: 
-        docker push adrianalexisgonzalezherrera/docker-graphql:0.0.2
+#     - name: Push Docker Image
+#       run: 
+#         docker push adrianalexisgonzalezherrera/docker-graphql:0.0.2
         
         
         
