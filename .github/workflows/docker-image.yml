@@ -1,7 +1,6 @@
 name: Docker Image CI
 
 on:
-   permissions: read-all|write-all
    push: 
      branches: [ "main" ]
    pull_request:
